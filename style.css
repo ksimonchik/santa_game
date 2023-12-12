@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+img {
+    width: 1000px; /* Updated size */
+    height: auto;
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+}
