@@ -6,14 +6,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="logo-container">
+        <img src="Logo-IDRND.webp" alt="ID R&D Logo" class="logo">
+    </div>
     <div class="game-container">
         <h1>Which Santa is Deepfake?</h1>
-        <img id="santaImage" src="path_to_your_first_image.jpg" alt="Santa Image" style="width: 1000px;">
+        <div class="image-container">
+            <img id="santaImage" src="santa_5.jpg" alt="Santa Image">
+        </div>
         <div class="buttons">
             <button onclick="guess('real')">Real</button>
             <button onclick="guess('deepfake')">Deepfake</button>
         </div>
-        <p id="score">Attempts: 0/10</p>
+        <p id="score">Attempt: 1/10</p>
     </div>
     <script src="script.js"></script>
 </body>
