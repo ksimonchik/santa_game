@@ -35,7 +35,7 @@ body {
 }
 
 .logo {
-    max-width: 150px; /* Width of the logo */
+    max-width: 200px; /* Width of the logo */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -86,17 +86,17 @@ img {
 /* Adjustments for smaller screens */
 @media (max-width: 600px) {
     .logo {
-        max-width: 60px;
+        max-width: 100px;
     }
 
     img {
-        max-height: 30vh;
+        max-height: 50vh;
     }
 
     .buttons button {
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px 16px;
-        width: 120px;
+        width: 150px;
     }
 
     #score {
